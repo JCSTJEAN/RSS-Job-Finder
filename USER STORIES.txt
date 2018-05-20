@@ -1,0 +1,3 @@
+As a job seeker, I want to see only the local area jobs that are in my area of interest
+
+As a professor, I want to see where the local jobs in a particular area of interest are located.
