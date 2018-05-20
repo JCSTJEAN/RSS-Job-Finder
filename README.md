@@ -3,6 +3,8 @@ A Stack Overflow RSS feed scraper that also turns it into filtered jobs within a
 
 This Project is build in 3 parts. First I built an RSS feed scraper using some ideas from the internet to pull and organize RSS Feed information into lists for use. Then I made it display that information as text, and the last thing I did was make the browser open each city where the jobs are located in google maps.
 
+The RSS feed url can be changed in code or modified to be manual, but code is tailored specifically for the (2018) Stack Overflow RSS feed.
+
 FLOW OF THE PROGRAM :
 
 1. Read in user language that they are looking for jobs in. (It bases it off of Stack Overflows job listings)
@@ -16,3 +18,7 @@ CONSTRAINTS :
 1. I had to read the information using the RSS feed so i couldn't pull from HTML. I was strictly working with XML
 2. I had to display the map information from the locations. Unfortunately Minigeo at the time (2018) didn't work and
    other map software had too much complexity in the time frame that I had.
+   
+SCREENSHOTS : 
+   Show the unit test and the behavior of the code.
+   IDE used is "Eclipse Neon"
